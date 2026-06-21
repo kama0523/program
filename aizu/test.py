@@ -1,10 +1,11 @@
-a = []
+
 while True:
-    x = input()
-    if x == "0":
+    x,y = map(int,input().split())
+
+    if x == 0 and y == 0:
         break
-    a.append(x)
 
-for i in range(len(a)):
-    print(f"Case {i+1}: {a[i]}")
+    if x > y:
+        x,y = y,x
 
+    print(x,y)
