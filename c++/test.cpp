@@ -3,5 +3,5 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello word" << endl;
+    cout << 7 / 10 << endl;
 }
